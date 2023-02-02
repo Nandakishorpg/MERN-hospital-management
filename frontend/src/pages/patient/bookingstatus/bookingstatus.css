@@ -1,0 +1,89 @@
+.doctorsList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    flex-direction: column;
+gap: 20px;
+    background-color: #bde0fe;
+    box-shadow:5px 5px 15px 15px rgba(14, 14, 14, 0.06);
+    padding: 10vh 10px 10vh 10px ;
+    border-radius: 15px;
+    width: 70%;
+    margin-left: 15%;
+
+
+}
+.list-container{
+    width: 100vh;
+    background-color: #b9fbc0;
+    border: 1px solid rgb(244, 245, 243);
+    height: 35vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    
+
+}
+.docList{
+    list-style: none;
+  
+    
+}
+/* ul{
+    padding-top: 20px;
+} */
+ 
+
+@media screen and (max-width:1063px) {
+    .docList li{
+        font-size:2.7vh;
+    }  
+    .list-container{
+        width: 70vh;
+        background-color: #b9fbc0;
+        border: 1px solid rgb(244, 245, 243);
+        height: 35vh;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content:center; 
+        padding-left: 4vh;
+        
+    
+    }
+    
+
+}
+.docDetails{
+    color: rgb(17, 16, 16);
+    /* text-transform: uppercase; */
+    /* float: right; */
+    /* float: inline-start; */
+    float: left;
+}
+.docData{
+    color: steelblue;
+    text-transform: uppercase;
+    padding-right: 50px;
+    float: left;
+}
+.appointment-button{
+    margin-top: 60%;
+}
+.table{
+    width: 30%;
+}
+.approved{
+    color: rgb(169, 25, 182);
+    font-size: larger;
+    text-transform: capitalize;
+    text-shadow:  rgb(245, 243, 243);
+}
+.Rejected{
+    color: rgb(228, 15, 15);
+    font-size: large;
+    text-transform: capitalize;
+    text-shadow: 1px black;
+}

@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.squareContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9de2ff;
+    border-radius: 15px;
+    position: relative;
+    top: -100px;
+
+    height: 290px;
+}
+.square{
+    display: flex;
+    height: 25vh;
+    width: 60vh;
+    /* margin-top: 20%; */
+    
+}
+
+.box1{
+    border-radius: 4px;
+
+    background-color: rgb(249, 250, 247);
+    flex-grow: 1;
+    box-shadow:3px 5px 15px 15px rgba(244, 245, 246, 0.06); 
+
+}
+.box2{
+    background-color: rgb(225, 74, 14);
+    flex-grow: 1.25;
+    box-shadow:3px 5px 15px 15px rgba(244, 245, 245, 0.06); 
+    padding-top: 15px;
+    border-radius: 4px;
+
+
+
+}
+@media screen and (max-width:767px){
+.squareContainer{
+    width: 300px;
+    margin-left: 40px;
+}
+}
+
+
+
+
+
+
